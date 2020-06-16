@@ -1,0 +1,114 @@
+@font-face{
+    font-family: Nunito Sans Regular;
+    src: url('../fonts/NunitoSans-Regular.ttf');
+}
+
+@font-face{
+    font-family: Nunito Sans Light;
+    src: url('../fonts/NunitoSans-Light.ttf');
+}
+
+$color: #222;
+
+$color-2: #21bda1;
+
+$color-3: rgba(0,0,0,.18);
+$color-4:rgba(170,170,170,1);
+
+$font-size: 24px;
+
+$container: 1300px;
+
+
+.type-1519{
+    background-color: $color + 214; // #f8f8f8
+
+    .container-custom{
+        max-width: $container; // 1300px
+        margin: auto;
+    }
+
+    .p-30{
+        padding: 30px;
+    }
+
+   
+    a{
+        text-decoration: none;
+        color: $color; // #222
+        cursor: pointer;
+
+        font-size: $font-size - 8px; // 16px
+
+        &:hover{
+            color: $color-2; // #21bda1
+            transition: 0.35s all ease;
+        }
+    }
+    .text{
+        font-size: $font-size - 6px;//18px
+        color: $color-4;//rgba(170,170,170,1)
+    }
+    
+    .support{
+        
+        h3{
+            font-size: $font-size - 4px; // 20px
+        }
+        p{
+            font-size: $font-size - 10px; // 14px
+            color: $color-4;//rgba(170,170,170,1)
+        }
+        
+    }
+    .icon-logo{
+        color: $color-4;
+       i{
+        border-radius: 2px;
+        text-align: center;
+        font-size: 16px;
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        background: $color-4 + 58; //#e4e4e4
+
+        &:hover
+        {
+            color: $color-4 +85; //#fff
+            background: $color-2;
+            transition: 0.35s all ease;
+        }
+       }
+
+    }
+    .icon{
+        color: $color-3;
+        font-size: $font-size; // 24px
+       
+    }
+
+    .icon-2{
+        color: $color-3;
+        font-size: $font-size + 2; // 26px
+    }
+
+    .gmail, .address{
+        h3{
+            font-size: $font-size - 8px; // 16px
+        }
+        p{
+            font-size: $font-size - 10px; // 14px
+            color: $color-4;
+        }
+    }
+    .course
+    {
+        a{
+            font-size: $font-size - 8px; // 16px
+        }
+        p{
+            font-size: $font-size - 10px; // 14px
+            color: $color-4;
+        }
+    }
+}

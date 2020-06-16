@@ -1,0 +1,28 @@
+.type-1552 .container-custom {
+  max-width: 1300px;
+  margin: auto; }
+@font-face {
+  font-family: Nunito Sans;
+  src: url(../fonts/NunitoSans-Regular.ttf); }
+.type-1552 body {
+  font-family: "Nunito Sans";
+  color: #222; }
+.type-1552 h4 {
+  font-size: 30px;
+  margin-bottom: 2rem;
+  margin-left: 200px; }
+.type-1552 .image-one {
+  position: relative;
+  width: 50%;
+  padding-bottom: calc(1* 5%); }
+  .type-1552 .col-md-8 h3 {
+    width: 400px;
+    font-size: 24px; }
+    .type-1552 .col-md-8 h3 a {
+      text-decoration: none;
+      color: #222;
+      cursor: pointer;
+      word-break: break-all; }
+  .type-1552 .col-md-8 p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.18); }

@@ -1,0 +1,48 @@
+$color-1:#222;
+$color-2:#666;
+$color-3: rgba(0, 0, 0, .18);
+$font-size: 24px;
+$container: 1300px;
+.type-1552 {
+    .container-custom {
+        max-width: $container; // 1300px
+        margin: auto;
+    }
+    @font-face {
+        font-family: Nunito Sans;
+        src: url(../fonts/NunitoSans-Regular.ttf);
+    }
+    body {
+        font-family: "Nunito Sans";
+        color: $color-1;
+    }
+    h4 {
+        font-size: $font-size +6px;
+        margin-bottom: 2rem;
+        margin-left: 200px;
+    }
+    .image-one {
+        position: relative;
+        width: 50%;
+        padding-bottom: calc(1* 5%);
+    }
+    .col-md-8 {
+        //text-align: left;
+        h3 {
+            width: 400px;
+            //overflow: hidden;
+            //text-overflow: ellipsis;
+            a {
+                text-decoration: none;
+                color: $color-1; // #222
+                cursor: pointer;
+                word-break: break-all;
+            }
+            font-size: $font-size; // 20px
+        }
+        p {
+            font-size: $font-size - 10px; // 14px
+            color: $color-3; //rgba(0,0,0,.18)
+        }
+    }
+}

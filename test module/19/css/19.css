@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "LibreCaslonDisplay-Regular";
+  src: url('../fonts/LibreCaslonDisplay-Regular.ttf'); }
+@font-face {
+  font-family: "IMFellFrenchCanon-Regular";
+  src: url('../fonts/IMFellFrenchCanon-Regular.ttf'); }
+@font-face {
+  font-family: "IMFellFrenchCanon-Italic";
+  src: url('../fonts/IMFellFrenchCanon-Italic.ttf'); }
+@font-face {
+  font-family: "Blinker-Regular";
+  src: url('../fonts/Blinker-Regular.ttf'); }
+
+.p-30 {
+  padding: 30px; }
+
+.type-19 {
+  background: #f5f8f2;
+  word-spacing: 3px; }
+  .type-19 .title {
+    position: relative;
+    font-family: "IMFellFrenchCanon-Regular"; }
+    .type-19 .title .text-opacity h1 {
+      position: absolute;
+      color: #929698;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 180px;
+      opacity: 0.1; }
+    @media (max-width: 415px) {
+      .type-19 .title .text-opacity h1 {
+        font-size: 90px !important; } }
+    .type-19 .title .text-opacity p {
+      font-family: "IMFellFrenchCanon-Italic";
+      color: #88b44e;
+      font-size: 22px; }
+    @media (max-width: 415px) {
+      .type-19 .title .text-opacity p {
+        font-size: 18px !important; } }
+    .type-19 .title .text-opacity h2 {
+      font-family: "IMFellFrenchCanon-Regular";
+      color: #222;
+      font-size: 44px; }
+    @media (max-width: 415px) {
+      .type-19 .title .text-opacity h2 {
+        font-size: 22px !important; } }
+  .type-19 .card-body i {
+    color: #88b44e; }
+  .type-19 .card-body h5 {
+    color: #88b44e;
+    font-size: 22px;
+    font-family: "LibreCaslonDisplay-Regular"; }
+  .type-19 .card-body h2 {
+    font-family: "IMFellFrenchCanon-Regular";
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-break: break-word;
+    -webkit-line-clamp: 2;
+    font-size: 30px; }
+  .type-19 .card-body p {
+    color: #43494c;
+    font-family: "Blinker-Regular";
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-break: break-word;
+    -webkit-line-clamp: 4; }
+.type-19 .support p {
+  color: #929698;
+  font-family: "IMFellFrenchCanon-Regular"; }
+.type-19 .support span {
+  font-family: "IMFellFrenchCanon-Italic";
+  color: #929698; }

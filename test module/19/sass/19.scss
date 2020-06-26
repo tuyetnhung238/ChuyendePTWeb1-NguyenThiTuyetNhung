@@ -1,0 +1,159 @@
+@font-face
+{
+    font-family: "LibreCaslonDisplay-Regular" ;
+    src: url('../fonts/LibreCaslonDisplay-Regular.ttf');
+}
+@font-face
+{
+    font-family: "IMFellFrenchCanon-Regular";
+    src: url('../fonts/IMFellFrenchCanon-Regular.ttf');
+}
+@font-face
+{
+    font-family: "IMFellFrenchCanon-Italic";
+    src: url('../fonts/IMFellFrenchCanon-Italic.ttf');
+}
+@font-face
+{
+    font-family: "Blinker-Regular";
+    src: url('../fonts/Blinker-Regular.ttf')
+}
+
+$color-1: #88b44e;
+$color-2: #222;
+$color-3:#f5f8f2;
+$color-4:#929698;
+$color-5:#43494c;
+$font-size: 30px;
+$webkit-line-clamp:4;
+
+
+.p-30{
+    padding: 30px;
+}
+
+@mixin text ($webkit-line-clamp){
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    word-break: break-word;
+
+    -webkit-line-clamp:$webkit-line-clamp;
+    
+}
+
+// Top
+.type-19{ 
+    background: $color-3;//#f5f8f2
+    word-spacing: 3px;
+    .title {
+        position: relative;
+        font-family: "IMFellFrenchCanon-Regular";
+        .text-opacity
+        {
+            h1{
+                            position: absolute;
+                            color: $color-4;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            font-size:$font-size + 150px;
+                            
+                            opacity: 0.1;
+
+                            @media (max-width: 415px){
+                                font-size:$font-size + 60px !important;
+                            }
+                        }
+            p{
+                font-family: "IMFellFrenchCanon-Italic";
+                color: $color-1;//#88b44e
+                font-size: $font-size - 8px;//22px
+
+                @media (max-width: 415px){
+                    font-size:$font-size - 12px !important;
+                }
+            }
+            h2{
+                font-family: "IMFellFrenchCanon-Regular";
+                color: $color-2;//#222
+                font-size: $font-size + 14px;//50px
+
+                @media (max-width: 415px){
+                    font-size:$font-size - 8px !important;
+                }
+            }
+        }
+       
+    }
+    // .title-product{
+    //     position: relative;
+    //     font-family: "YesevaOne";
+    //     margin: 20px 0;
+    //     .text-opacity{
+    //         span{
+    //             position: absolute;
+    //             color: $white-color - 38px;
+    //             top: 50%;
+    //             left: 50%;
+    //             transform: translate(-50%, -50%);
+    //             font-size: $size-text + 96px;
+    //             z-index: -1;
+    //             opacity: 0.2;
+    //         }
+    //         h5{
+    //             color: $green-color;
+    //             font-style: italic;
+    //             font-size: $size-text;
+    //         }
+    //     }
+    // }
+    .card-body
+    {
+        i{
+            color: $color-1;//#88b44e
+        }
+        h5{
+            color: $color-1;//#88b44e
+            font-size: $font-size - 8px;//22px
+            font-family: "LibreCaslonDisplay-Regular" ;
+        }
+        h2{
+            font-family: "IMFellFrenchCanon-Regular";
+            @include text($webkit-line-clamp - 2);
+            font-size: $font-size;//30px
+        }
+        p{
+            color: $color-5;//#43494c
+            font-family: "Blinker-Regular";
+            @include text($webkit-line-clamp);
+        }
+    }
+    .support
+    {
+        p{
+            color: $color-4;//#929698
+            font-family: "IMFellFrenchCanon-Regular";
+        }
+        span{
+            font-family: "IMFellFrenchCanon-Italic";
+            color: $color-4;//#92969
+        }
+    }
+   
+
+   
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+

@@ -35,7 +35,7 @@
                             <p class="date">February 21, 2018</p>
 
                             <div>
-                                <span><i class="fa fa-commenting" aria-hidden="true"></i></i>4</span>
+                                <span><i class="fa fa-commenting" aria-hidden="true"></i>4</span>
                                 <span><i class="fa fa-eye m-1" aria-hidden="true"></i>813</span>
                             </div>
 
@@ -58,7 +58,7 @@
                             <p class="date">February 21, 2018</p>
 
                             <div>
-                                <span><i class="fa fa-commenting" aria-hidden="true"></i></i>4</span>
+                                <span><i class="fa fa-commenting" aria-hidden="true"></i>4</span>
                                 <span><i class="fa fa-eye m-1" aria-hidden="true"></i>813</span>
                             </div>
 
@@ -81,7 +81,7 @@
                             <p class="date">February 21, 2018</p>
 
                             <div>
-                                <span><i class="fa fa-commenting" aria-hidden="true"></i></i>4</span>
+                                <span><i class="fa fa-commenting" aria-hidden="true"></i>4</span>
                                 <span><i class="fa fa-eye m-1" aria-hidden="true"></i>813</span>
                             </div>
 

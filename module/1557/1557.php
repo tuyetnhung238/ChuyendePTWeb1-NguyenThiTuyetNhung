@@ -23,7 +23,7 @@ file_put_contents("css/1557.css",$result);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?php echo $url_path ?>/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php echo $url_path ?>/fonts/font-awesome-4.7.0/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo $url_path ?>/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo $url_path ?>/css/1557.css">
     <script src="<?php echo $url_path ?>/js/jquery-3.2.0.min.js"></script>
